@@ -84,6 +84,7 @@ body {
   background-size: cover;
   position: relative;
   color: #ffffff;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 /* Animation */
