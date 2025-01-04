@@ -3,7 +3,7 @@
 .container {
   position: relative;
   width: 100vw;
-  max-width: 100vh;
+  height: 100vh;
   text-align: center;
   margin: 0 auto;
   box-sizing: border-box;
@@ -80,8 +80,8 @@ body {
   opacity: 0;
   animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
   animation-fill-mode: forwards;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: round;
+  background-size: contain;
   position: relative;
   color: #ffffff;
   overflow: hidden; /* Hide scrollbars */
